@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    
+    align-items: center;
+    font-family: cursive;
+    background: rgb(138, 29, 29);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.title {
+    padding: 0px 20px;
+    background-color: white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    width:auto;
+
+    margin-bottom: 1rem;
+    color: rgba(206, 10, 241, 0.838);
+}
+.container > form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 60rem;
+}
+
+.button-area{
+ display: flex;
+ justify-content: space-between;
+}
+
+.btn{
+    
+    
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin:20px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+body .container h2.cpu-choice{
+    font-size: 25px;
+    text-align: center;
+}
+
+body .container h2.my-choice{
+    font-size: 25px;
+    text-align: center;
+}
+
+body .container h2.result{
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn#rock{
+    background-color: rgb(138, 62, 11);
+    color: white;
+}
+.btn#paper{
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+.btn#scissor{
+    background-color: rgb(11, 64, 224);
+    color: rgb(255, 255, 255);
+}
+.btn#reset{
+    background-color: rgb(166, 27, 27);
+    color: rgb(255, 255, 255);
+}
